@@ -11,7 +11,7 @@ $configuration = [
 $app = new \Slim\App($configuration);
 
 $app->get('/', function ($request, $response) {
-    $response->write('Welcome to Slim!');
-    return $response;
+    $response->write('Welcome to Hexlet!');
+   // return $response;
 });
 $app->run();
